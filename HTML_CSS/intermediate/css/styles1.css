@@ -1,0 +1,68 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    height: 200vh;
+}
+
+#summary {
+    font-size: 200%;
+    font-weight: bold;
+    color: rgb(9, 9, 121);
+}
+
+.pad {
+    padding: 10px 20px;
+    border: 10px solid gold;
+}
+.pad1{
+    padding: 20px;
+    margin: 0;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    padding: 10px;
+    border: 10px solid red;
+    display: inline-block;
+}
+
+.boxes{
+    border: 3px solid lightgrey;
+    position: relative;
+}
+
+.box{
+    width: 5rem;
+    height: 5rem;
+}
+
+.box-one{
+    background-color: gold;
+}
+
+.box-two{
+    background-color: tomato;
+    position: relative;
+    left: 4rem;
+    bottom: 2rem;
+    z-index: -1;
+}
+
+.box-three {
+    background-color: dodgerblue;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.box2{
+    height: 2rem;
+    width: 100vw;
+    position: fixed;
+    background-color: brown;
+    top:0;
+    z-index: 999;
+}

@@ -1,0 +1,26 @@
+#summary {
+    font-size: 200%;
+    font-weight: bold;
+    color: rgb(9, 9, 121);
+}
+
+/* body{
+    margin: 10px;
+} */
+
+.box1{
+    width: 100px;
+    height:100px;
+    background-color: violet;
+    border-top: 2px solid gold;
+    margin: 10px;
+}
+
+/* em is relative to font size, rem is relative to root element font size, vh viewport height and vw viewport width */
+
+.box2{
+    width: 50%;
+    height: 100vh;
+    background-color: violet;
+    border-top: 2px solid gold;
+}
