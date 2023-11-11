@@ -7,6 +7,10 @@
     <meta name="description" content="Track your babies first steps" />
     <title>Document</title>
     <style>
+      .text_box {
+        background-color: lightgray;
+        width: 300px;
+      }
       em {
         color: red;
         font-style: normal;
@@ -29,35 +33,59 @@
         border-collapse: collapse;
         padding: 5px;
       }
+      #summary {
+        font-size: 200%;
+        font-weight: bold;
+        color: rgb(9, 9, 121);
+      }
     </style>
   </head>
   <body>
+    <p id="summary">
+      On this page you can find exmples of hyperlinks, images, videos, text,
+      lists, tables and semantic elements
+    </p>
     <ul>
       <li><a href="#section-HTML">Home</a></li>
       <li><a href="search.html">Search</a></li>
       <li><a href="login.html">Login</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="careers.html">Careers</a></li>
     </ul>
     <a href="#section-HTML">HTML</a>
     <a href="#section-CSS" target="_blank">CSS</a>
     <a href="https://google.com">Google</a>
     <a href="mailto:maxence.vandievoet@gmail.com">Email Max</a>
+
+    <div class="text_box">
+      <p><span>A bit more</span> Text</p>
+    </div>
+
     <h1>Some Table</h1>
     <table>
-      <tr>
-        <th>Category</th>
-        <th>Budget</th>
-        <th>Actual Spending</th>
-      </tr>
-      <tr>
-        <td>Sports</td>
-        <td>$100</td>
-        <td>$50</td>
-      </tr>
-      <tr>
-        <td>Groceries</td>
-        <td>$100</td>
-        <td>$120</td>
-      </tr>
+      <thead>
+        <tr>
+          <th colspan="3">Expenses</th>
+        </tr>
+        <tr>
+          <th>Category</th>
+          <th>Budget</th>
+          <th>Actual Spending</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sports</td>
+          <td>$100</td>
+          <td>$50</td>
+        </tr>
+        <tr>
+          <td>Groceries</td>
+          <td>$100</td>
+          <td>$120</td>
+        </tr>
+      </tbody>
     </table>
     <h1 id="section-HTML">HTML</h1>
     <p>

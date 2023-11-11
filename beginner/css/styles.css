@@ -1,0 +1,77 @@
+body{
+    margin: 10px;
+}
+.product{
+    background-color: aqua;
+}
+#products h2{
+    color: red;
+}
+.first{
+    font-size: 140%;
+    font-style: italic;
+}
+article p:first-of-type{
+    background-color: lightgrey;
+    font-size: 140%;
+    font-style: italic;
+}
+ul li:nth-child(odd){
+    color: pink;
+}
+a:visited, a:link{
+    color: red;
+}
+a:hover, a:focus{
+    color: black;
+}
+p::first-letter{
+    font-size: 140%;
+    font-weight: bold;
+}
+::selection{
+    background-color: pink;
+}
+p::after{
+    content:'...';
+    display: block;
+    color: red;
+}
+h1{
+    color: red;
+}
+.highlight{
+    color: deeppink;
+}
+.boxed_text{
+    border: 1px solid black;
+}
+strong{
+    color: blue;
+    border: inherit;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: rgb(9,9,121);
+    background: radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(0,212,255,0.9682247899159664) 100%);
+    border: 10px solid royalblue;
+    border-width: 10px 20px 30px 40px;
+    border-radius: 100%;
+}
+.box1{
+    width: 400px;
+    height: 400px;
+    background-color: dodgerblue;
+    box-shadow: 0px 0px 30px;
+}
+#summary {
+    font-size: 200%;
+    font-weight: bold;
+    color: rgb(9, 9, 121);
+}
+#mySpecialHeading{
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
