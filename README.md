@@ -4,9 +4,9 @@
     - HTML & CSS
       - Beginner :white_check_mark:
       - Intermediate :white_check_mark:
-      - Advanced (Project)
+      - Advanced - Project
     - JS
-      - Fundamentals
+      - Fundamentals :hourglass:
       - Intermediate
       - Typescript
     - Libraries and Frameworks
@@ -15,11 +15,12 @@
       - Next.js 13
       - Next.js Project
       - Redux
-- Back End
-  - JS Fundamentals
-  - JS Intermediate
-  - Typescript
-  - Node JS
+- Back End (JS route)
+  - JS
+    - Fundamentals :hourglass:
+    - Intermediate
+    - Typescript
+    - Node.js
   - SQL Mastery
   - Utimate Git
   - Docker
