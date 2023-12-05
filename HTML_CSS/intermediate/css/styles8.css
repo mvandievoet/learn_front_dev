@@ -1,0 +1,20 @@
+body{
+    background: url(../images/bg-sanfrancisco.jpg);
+    /* 
+    width: 100vw; */
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-attachment: fixed;
+    height: 300vh;
+}
+
+#summary {
+    font-size: 200%;
+    font-weight: bold;
+    color: rgb(9, 9, 121);
+    line-height: 1.2;
+}
+
+.meal{
+    width: auto;
+}

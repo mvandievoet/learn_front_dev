@@ -1,0 +1,59 @@
+body {
+    background-image: url(../images/constellation.svg);
+}
+
+#summary {
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+    line-height: 1.2;
+}
+
+p {
+    color:  white;
+}
+
+.sprite {
+    background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.sprite-dishes {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -5px;
+}
+
+.sprite-landing {
+    width: 100px;
+    height: 100px;
+    background-position: -115px -5px;
+}
+
+.sprite-rocketship {
+    width: 100px;
+    height: 100px;
+    background-position: -225px -5px;
+}
+
+.sprite-saturn {
+    width: 100px;
+    height: 100px;
+    background-position: -335px -5px;
+}
+
+.sprite-ufo {
+    width: 100px;
+    height: 100px;
+    background-position: -445px -5px;
+}
+
+img {
+    display: block;
+}
+
+.meal1:hover {
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    filter: grayscale(70%) blur(3px);
+}

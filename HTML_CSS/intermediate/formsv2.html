@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      #summary {
+        font-size: 200%;
+        font-weight: bold;
+        color: darkgrey;
+        line-height: 1.2;
+      }
+      form {
+        width: 50%;
+        padding: 2rem;
+      }
+
+      .newfeature {
+        margin-top: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="summary">
+      On this page you can find an example of different form elements that
+      leverage Miligram styling
+    </p>
+    <!-- use action and post attribute to deal with form retreival -->
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input id="name" type="text" autofocus />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="someemail.com" />
+      </div>
+      <button type="submit">Submit</button>
+      <button type="reset">Clear</button>
+
+      <p class="newfeature">More field examples</p>
+      <input type="number" />
+
+      <label for="frontend" class="label-inline">Front-End?</label>
+      <input type="checkbox" id="frontend" checked />
+
+      <input type="date" />
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+
+      <p class="newfeature">Example of a datalist</p>
+      <input type="text" list="countries" autocomplete="off" />
+      <datalist id="countries">
+        <option data-value="1">Canada</option>
+        <option>US</option>
+      </datalist>
+
+      <!-- can use multiple attribute in order to select mutiple options and optiongroup to group all the options -->
+      <p class="newfeature">Example of dropdown list</p>
+      <select>
+        <option value="0">Select a course...</option>
+        <option value="1">HTML</option>
+        <option value="2">CSS</option>
+        <option value="3">JS</option>
+        <option value="4">Python</option>
+      </select>
+
+      <p class="newfeature">Radio Buttons</p>
+      <div>
+        <input type="radio" name="membership" id="silver" />
+        <label for="silver" class="label-inline">Silver</label>
+      </div>
+      <div>
+        <input type="radio" name="membership" id="gold" checked />
+        <label for="gold" class="label-inline">Gold</label>
+      </div>
+
+      <p class="newfeature">Slider</p>
+      <input type="range" min="0" max="90" value="80" />
+
+      <p class="newfeature">File selection</p>
+      <input type="file" multiple accept="image/*" />
+
+      <p class="newfeature">Fieldset</p>
+      <fieldset>
+        <legend>Billing Address</legend>
+        <input type="text" /><input type="text" /><input type="text" />
+      </fieldset>
+      <fieldset>
+        <legend>Payment Address</legend>
+        <input type="text" /><input type="text" /><input type="text" />
+      </fieldset>
+
+      <!-- ability to set min and max values in order to avoid hacking -->
+    </form>
+  </body>
+</html>
