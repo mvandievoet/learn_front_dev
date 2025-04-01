@@ -4,7 +4,7 @@
     - HTML & CSS
       - Beginner :white_check_mark:
       - Intermediate :white_check_mark:
-      - Advanced - Project
+      - Advanced - Project :hourglass:
     - JS
       - Fundamentals :hourglass:
       - Intermediate
